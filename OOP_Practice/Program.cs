@@ -10,6 +10,10 @@ namespace OOP_Practice
     {
         static void Main(string[] args)
         {
+            Random rando = new Random(); // makes new random object
+            rando.Next(3, 30);
+
+
         }
     }
 }
