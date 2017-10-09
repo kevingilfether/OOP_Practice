@@ -49,26 +49,44 @@ namespace OOP_Practice
             //Console.WriteLine("The dog now weighs " + firstDoge.Weight);
             //firstDoge.Bark();
 
-            Dog secondDoge = new Dog("fluffy", 4.04f);
+            //Dog secondDoge = new Dog("fluffy", 4.04f);
 
-            Console.WriteLine(secondDoge.HairLength);
+            //Console.WriteLine(secondDoge.HairLength);
 
-            secondDoge.Groom();
+            //secondDoge.Groom();
 
-            Console.WriteLine(secondDoge.HairLength);
+            //Console.WriteLine(secondDoge.HairLength);
 
-            secondDoge.RunningSpeed = "faster than lightning";
+            //secondDoge.RunningSpeed = "faster than lightning";
 
-            secondDoge.Run();
+            //secondDoge.Run();
 
-            Console.WriteLine(secondDoge.RunningSpeed);
+            //Console.WriteLine(secondDoge.RunningSpeed);
 
-            secondDoge.Weight = 78.9;
+            //secondDoge.Weight = 78.9;
 
-            Console.WriteLine(secondDoge.Weight);
+            //Console.WriteLine(secondDoge.Weight);
 
-            secondDoge.Bark();
+            //secondDoge.Bark();
 
+
+            Superhero pow = new Superhero(false, "Pow!", "Chaotic Neutral");
+
+            Console.WriteLine(pow.Name + " is " + pow.Alignment);
+
+            pow.HeroicTurn("Chaotic Good");
+
+            Console.WriteLine(pow.Name + " is " +  pow.Alignment);
+
+            Superhero queue = new Superhero("Neutral", 3700);
+
+            queue.NewIdentity("Queue");
+
+            Console.WriteLine(queue.Name + " is " + queue.PowerLevel + " powerful");
+
+            queue.Shouts();
+
+            Console.WriteLine(queue.Name + " is " + queue.PowerLevel + " powerful after shouting. That's over 9000!");
 
         }
     }
