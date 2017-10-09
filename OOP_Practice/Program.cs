@@ -19,14 +19,18 @@ namespace OOP_Practice
             
 
             Cat cara = new Cat();
-            cara.furColor = "Tortoiseshell";
+            //cara.furColor = "Tortoiseshell";
             //"furColor" is private, so the program can't interact with it.
-            //After making overloaded constructor, then 
+            //After making overloaded constructor, thennnnn:
 
-            Cat karma = new Cat("Karma", 4, "Tortoiseshell");
+            Cat karma = new Cat("Karma", 4, "tortoiseshell");
             //This is using the overloaded constructor 
 
+            Console.WriteLine(mittens.Name);
+            Console.WriteLine(karma.Name);
 
+            karma.Eat();
+            karma.Eat();
 
         }
     }

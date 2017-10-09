@@ -40,6 +40,19 @@ namespace OOP_Practice
             this.furColor = furColor;
         }
 
+        //Classes also have methods
+
+        public void Eat()
+        {
+            if (isHungry == true)
+            {
+                isHungry = false;
+            }
+
+            Console.WriteLine("Is the cat hungry?" + isHungry);
+        }
+
+
 
     }
 }
