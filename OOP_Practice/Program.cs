@@ -23,6 +23,9 @@ namespace OOP_Practice
             //"furColor" is private, so the program can't interact with it.
             //After making overloaded constructor, then 
 
+            Cat karma = new Cat("Karma", 4, "Tortoiseshell");
+            //This is using the overloaded constructor 
+
 
 
         }
