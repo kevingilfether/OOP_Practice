@@ -12,7 +12,7 @@ namespace OOP_Practice
         private string hairLength;
         private float height;
         private string runningSpeed;
-        private int weight;
+        private double weight;
 
         //Properties - In PascalCase
         public string HairLength
@@ -33,7 +33,7 @@ namespace OOP_Practice
             set { this.runningSpeed = value; }
         }
 
-        public int Weight
+        public double Weight
         {
             get { return this.weight; }
             set { this.weight = value; }
@@ -54,20 +54,23 @@ namespace OOP_Practice
         //Methods
         public void Run()
         {
-
+            runningSpeed = "getting faster.";
+            weight--;
         }
 
         public void Bark()
         {
-
+            Console.WriteLine("\a");
         }
+
         public void Potty()
         {
-
+            weight = weight -= 0.1;
         }
-        public void Cuddle()
-        {
 
+        public void Groome()
+        {
+            hairLength = "all cleaned up";
         }
 
     }
