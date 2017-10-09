@@ -33,7 +33,7 @@ namespace OOP_Practice
             //takes not parameters
 
         }
-        public Cat( string name, int age, string furColor)
+        public Cat(string name, int age, string furColor)
         {
             this.name = name;
             this.age = age;
@@ -49,9 +49,17 @@ namespace OOP_Practice
                 isHungry = false;
             }
 
-            Console.WriteLine("Is the cat hungry?" + isHungry);
+            Console.WriteLine("Is the cat hungry? " + isHungry);
         }
+        public void WorkOut()
+        {
+            if (isHungry == false)
+            {
+                isHungry = true;
+            }
 
+            Console.WriteLine("The cat worked out. Hungry now? " + isHungry);
+        }
 
 
     }

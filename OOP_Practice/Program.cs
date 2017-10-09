@@ -32,6 +32,8 @@ namespace OOP_Practice
             karma.Eat();
             karma.Eat();
 
+            karma.WorkOut();
+
         }
     }
 }
