@@ -33,6 +33,13 @@ namespace OOP_Practice
             //takes not parameters
 
         }
+        public Cat( string name, int age, string furColor)
+        {
+            this.name = name;
+            this.age = age;
+            this.furColor = furColor;
+        }
+
 
     }
 }
