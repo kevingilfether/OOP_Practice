@@ -70,14 +70,14 @@ namespace OOP_Practice
             isVisible = true;
         }
 
-        public void HeroicTurn(string newAlignment)
+        public void HeroicTurn(string alignment)
         {
-            alignment = newAlignment;
+            this.alignment = alignment;
         }
 
-        public void NewIdentity(string newName)
+        public void NewIdentity(string name)
         {
-            name = newName;
+            this.name = name;
         }
 
     }
