@@ -68,10 +68,9 @@ namespace OOP_Practice
             weight = weight -= 0.1;
         }
 
-        public void Groome()
+        public void Groom()
         {
             hairLength = "all cleaned up";
         }
-
     }
 }

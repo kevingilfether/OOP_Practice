@@ -51,6 +51,7 @@ namespace OOP_Practice
 
             Console.WriteLine("Is the cat hungry? " + isHungry);
         }
+
         public void WorkOut()
         {
             if (isHungry == false)

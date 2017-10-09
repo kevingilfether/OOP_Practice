@@ -10,29 +10,45 @@ namespace OOP_Practice
     {
         static void Main(string[] args)
         {
-            Random rando = new Random(); // makes new random object
-            rando.Next(3, 30);
+            //Random rando = new Random(); // makes new random object
+            //rando.Next(3, 30);
 
-            Cat mittens = new Cat();
-            mittens.Name = "Mittens";
-            //Constructs Cat, uses the property to name cat "Mittens"\
+            //Cat mittens = new Cat();
+            //mittens.Name = "Mittens";
+            ////Constructs Cat, uses the property to name cat "Mittens"\
+
+
+            //Cat cara = new Cat();
+            ////cara.furColor = "Tortoiseshell";
+            ////"furColor" is private, so the program can't interact with it.
+            ////After making overloaded constructor, thennnnn:
+
+            //Cat karma = new Cat("Karma", 4, "tortoiseshell");
+            ////This is using the overloaded constructor 
+
+            //Console.WriteLine(mittens.Name);
+            //Console.WriteLine(karma.Name);
+
+            //karma.Eat();
+            //karma.Eat();
+
+            //karma.WorkOut();
+
+
+            Dog firstDoge = new Dog();
             
+            firstDoge.Weight = 60.00;
+            firstDoge.Height = 3.2f;
+            firstDoge.HairLength = "Flowing Main";
+            firstDoge.RunningSpeed = "will fetch ... eventually";
 
-            Cat cara = new Cat();
-            //cara.furColor = "Tortoiseshell";
-            //"furColor" is private, so the program can't interact with it.
-            //After making overloaded constructor, thennnnn:
+            firstDoge.Groom();
+            Console.WriteLine(firstDoge.HairLength);
 
-            Cat karma = new Cat("Karma", 4, "tortoiseshell");
-            //This is using the overloaded constructor 
+            firstDoge.Run();
+            Console.WriteLine("The dog now weighs " + firstDoge.Weight);
+            firstDoge.Bark();
 
-            Console.WriteLine(mittens.Name);
-            Console.WriteLine(karma.Name);
-
-            karma.Eat();
-            karma.Eat();
-
-            karma.WorkOut();
 
         }
     }
