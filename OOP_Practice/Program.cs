@@ -35,19 +35,39 @@ namespace OOP_Practice
             //karma.WorkOut();
 
 
-            Dog firstDoge = new Dog();
-            
-            firstDoge.Weight = 60.00;
-            firstDoge.Height = 3.2f;
-            firstDoge.HairLength = "Flowing Main";
-            firstDoge.RunningSpeed = "will fetch ... eventually";
+            //Dog firstDoge = new Dog();
 
-            firstDoge.Groom();
-            Console.WriteLine(firstDoge.HairLength);
+            //firstDoge.Weight = 60.00;
+            //firstDoge.Height = 3.2f;
+            //firstDoge.HairLength = "Flowing Main";
+            //firstDoge.RunningSpeed = "will fetch ... eventually";
 
-            firstDoge.Run();
-            Console.WriteLine("The dog now weighs " + firstDoge.Weight);
-            firstDoge.Bark();
+            //firstDoge.Groom();
+            //Console.WriteLine(firstDoge.HairLength);
+
+            //firstDoge.Run();
+            //Console.WriteLine("The dog now weighs " + firstDoge.Weight);
+            //firstDoge.Bark();
+
+            Dog secondDoge = new Dog("fluffy", 4.04f);
+
+            Console.WriteLine(secondDoge.HairLength);
+
+            secondDoge.Groom();
+
+            Console.WriteLine(secondDoge.HairLength);
+
+            secondDoge.RunningSpeed = "faster than lightning";
+
+            secondDoge.Run();
+
+            Console.WriteLine(secondDoge.RunningSpeed);
+
+            secondDoge.Weight = 78.9;
+
+            Console.WriteLine(secondDoge.Weight);
+
+            secondDoge.Bark();
 
 
         }
