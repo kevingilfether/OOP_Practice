@@ -11,12 +11,16 @@ namespace OOP_Practice
         //States
         //fields
         private string name;
+        private int age;
+        private string furColor;
+        private bool isHungry = true;
 
         //properties
         public string Name
         {
             get { return this.name; }
             set { this.name = value; }
+            // Like a bouncer or a mama bear -- the intermediator
         }
 
         //Behaviors
