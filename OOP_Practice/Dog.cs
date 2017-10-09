@@ -21,12 +21,37 @@ namespace OOP_Practice
             set { this.hairLength = value; }
         }
 
+        public float Height
+        {
+            get { return this.height; }
+            set { this.height = value; }
+        }
+
+        public string RunningSpeed
+        {
+            get { return this.runningSpeed; }
+            set { this.runningSpeed = value; }
+        }
+
+        public int Weight
+        {
+            get { return this.weight; }
+            set { this.weight = value; }
+        }
+
+        //Constructor
         public Dog()
         {
 
         }
 
+        public Dog(string hairLength, float height)
+        {
+            this.hairLength = hairLength;
+            this.height = height;
+        }
 
+        //Methods
         public void Run()
         {
 
